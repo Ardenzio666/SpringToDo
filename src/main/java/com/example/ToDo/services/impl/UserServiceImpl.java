@@ -3,7 +3,7 @@ package com.example.ToDo.services.impl;
 import com.example.ToDo.dto.UserDto;
 import com.example.ToDo.exceptions.EntityNotFoundException;
 import com.example.ToDo.exceptions.ErrorCodes;
-import com.example.ToDo.exception.InvalidEntityException;
+import com.example.ToDo.exceptions.InvalidEntityException;
 import com.example.ToDo.repositories.UserRepository;
 import com.example.ToDo.services.UserService;
 import com.example.ToDo.validators.UserValidator;

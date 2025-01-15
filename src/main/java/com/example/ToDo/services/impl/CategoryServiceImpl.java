@@ -3,7 +3,7 @@ package com.example.ToDo.services.impl;
 import com.example.ToDo.dto.CategoryDto;
 import com.example.ToDo.exceptions.EntityNotFoundException;
 import com.example.ToDo.exceptions.ErrorCodes;
-import com.example.ToDo.exception.InvalidEntityException;
+import com.example.ToDo.exceptions.InvalidEntityException;
 import com.example.ToDo.repositories.CategoryRepository;
 import com.example.ToDo.services.CategoryService;
 import com.example.ToDo.validators.CategoryValidator;

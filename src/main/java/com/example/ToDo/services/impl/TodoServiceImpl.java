@@ -5,7 +5,7 @@ import com.example.ToDo.dto.TodoDto;
 import com.example.ToDo.dto.UserDto;
 import com.example.ToDo.exceptions.EntityNotFoundException;
 import com.example.ToDo.exceptions.ErrorCodes;
-import com.example.ToDo.exception.InvalidEntityException;
+import com.example.ToDo.exceptions.InvalidEntityException;
 import com.example.ToDo.model.Category;
 import com.example.ToDo.model.Todo;
 import com.example.ToDo.repositories.CategoryRepository;

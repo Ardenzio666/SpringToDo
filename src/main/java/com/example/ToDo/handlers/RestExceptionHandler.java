@@ -1,7 +1,7 @@
 package com.example.ToDo.handlers;
 
 import com.example.ToDo.exceptions.EntityNotFoundException;
-import com.example.ToDo.exception.InvalidEntityException;
+import com.example.ToDo.exceptions.InvalidEntityException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
