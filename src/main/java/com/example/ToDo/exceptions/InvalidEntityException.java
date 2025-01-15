@@ -1,4 +1,4 @@
-package com.example.ToDo.exception;
+package com.example.ToDo.exceptions;
 
 import com.example.ToDo.exceptions.ErrorCodes;
 
