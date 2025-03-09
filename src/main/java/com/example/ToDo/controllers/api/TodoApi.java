@@ -14,6 +14,12 @@ import java.util.List;
 
 import static com.example.ToDo.utils.Constants.APP_ROOT;
 
+//localhost:8081/todos/create
+//localhost:8081/todos/update
+//localhost:8081/todos/all
+//localhost:8081/todos/{todoId:.+}
+//localhost:8081/todos/delete/{id:.+}
+
 @Tag(name = "Todos API", description = "API for managing Todos")
 public interface TodoApi {
 

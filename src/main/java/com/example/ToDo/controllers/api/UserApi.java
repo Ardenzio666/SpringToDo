@@ -13,7 +13,11 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 import static com.example.ToDo.utils.Constants.APP_ROOT;
-
+//localhost:8081/users/create POST createUser
+//localhost:8081/users/{id} POST updateUser
+//localhost:8081/users/all GET getAllUsers
+//localhost:8081/users/{id:.+} GET getUser
+//localhost:8081/users/delete/{id:.+} DELETE deleteUser
 @Tag(name = "Users API", description = "API for managing users")
 public interface UserApi {
 

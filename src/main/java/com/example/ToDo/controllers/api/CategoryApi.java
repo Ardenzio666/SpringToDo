@@ -15,6 +15,15 @@ import java.util.List;
 
 import static com.example.ToDo.utils.Constants.APP_ROOT;
 
+//localhost:8081/categories/create
+//localhost:8081/categories/update
+//localhost:8081/categories/all
+//localhost:8081/categories/todos/{id:.+} getAllTodoByCategoriesId
+//localhost:8081/categories/todos/today/{userId:.+} getAllTodoByCategoriesForToday
+//localhost:8081/categories/users/{id} getAllCategoriesByUserId
+//localhost:8081/categories/{id:.+}
+//localhost:8081/categories/delete/{id:.+}
+
 @Tag(name = "Categories API", description = "API for managing categories and related todos")
 public interface CategoryApi {
 

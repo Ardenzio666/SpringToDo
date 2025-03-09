@@ -1,7 +1,5 @@
 package com.example.ToDo.exceptions;
 
-import com.example.ToDo.exceptions.ErrorCodes;
-
 import java.util.List;
 
 public class InvalidEntityException extends RuntimeException {

@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import static com.example.ToDo.utils.Constants.APP_ROOT;
 
+//localhost:8081/auth/login POST login
+
 @Tag(name = "Authentication API", description = "Handles user authentication operations")
 public interface AuthApi {
 
